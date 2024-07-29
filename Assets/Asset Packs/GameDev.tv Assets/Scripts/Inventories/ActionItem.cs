@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace RPG.Inventories
 {
     /// <summary>
     /// An inventory item that can be placed in the action bar and "Used".

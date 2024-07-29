@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using GameDevTV.Core.UI.Dragging;
-using GameDevTV.Inventories;
+using RPG.Inventories;
 
 namespace GameDevTV.UI.Inventories
 {

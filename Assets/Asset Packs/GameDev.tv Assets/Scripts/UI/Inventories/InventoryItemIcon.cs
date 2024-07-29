@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using GameDevTV.Inventories;
+using RPG.Inventories;
 using TMPro;
 
 namespace GameDevTV.UI.Inventories

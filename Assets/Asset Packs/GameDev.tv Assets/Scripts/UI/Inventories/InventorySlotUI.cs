@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using GameDevTV.Inventories;
+using RPG.Inventories;
 using GameDevTV.Core.UI.Dragging;
 
 namespace GameDevTV.UI.Inventories

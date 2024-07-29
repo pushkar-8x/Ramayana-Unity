@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ee1524375ea2449b99a51ee37ae005, type: 3}
+  m_Name: Health Hat
+  m_EditorClassIdentifier: 
+  itemID: bdd4ecf0-5ed6-40b0-ba1d-fa2156f6381b
+  displayName: Health Hat
+  description: 
+  icon: {fileID: 21300000, guid: c1b61b3a91732a747a8496fc75a13fe2, type: 3}
+  pickup: {fileID: 7761818444081503751, guid: 5591efb0b0097864fb847bc2130b1096, type: 3}
+  stackable: 0
+  allowedEquipLocation: 0
+  additiveModifiers:
+  - stat: 0
+    value: 20
+  percentageModifiers: []

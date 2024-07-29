@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 1f59625c-d868-49f1-93f5-ab89ba6edd2f
   displayName: Hat
-  description: 
-  icon: {fileID: 21300000, guid: 7c4272045db356d4191801bf4343dbe3, type: 3}
+  description: 'Hat dropped by Luffy in the great ninja war .
+
+'
+  icon: {fileID: 21300000, guid: c1b61b3a91732a747a8496fc75a13fe2, type: 3}
   pickup: {fileID: 7761818444081503751, guid: 5591efb0b0097864fb847bc2130b1096, type: 3}
   stackable: 0
   allowedEquipLocation: 0

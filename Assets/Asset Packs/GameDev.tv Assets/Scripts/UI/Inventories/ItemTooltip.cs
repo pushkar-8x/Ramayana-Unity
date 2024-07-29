@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
-using GameDevTV.Inventories;
+using RPG.Inventories;
 
 namespace GameDevTV.UI.Inventories
 {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace RPG.Inventories
 {
     /// <summary>
     /// An inventory item that can be equipped to the player. Weapons could be a
