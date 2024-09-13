@@ -1,5 +1,111 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8508804705469166527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f3b8e6edca1144e909a09fe0d864b8, type: 3}
+  m_Name: 00a351b0-e479-475b-a526-10a8368cf32b
+  m_EditorClassIdentifier: 
+  text: New Node
+  isPlayerNode: 1
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 986
+    y: 152
+    width: 200
+    height: 100
+--- !u!114 &-7363447068713803556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f3b8e6edca1144e909a09fe0d864b8, type: 3}
+  m_Name: 65be25d0-d44f-4bdc-acb0-a7333991a772
+  m_EditorClassIdentifier: 
+  text: New Node
+  isPlayerNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 482
+    y: 233
+    width: 200
+    height: 100
+--- !u!114 &-6547561213015537846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f3b8e6edca1144e909a09fe0d864b8, type: 3}
+  m_Name: 6e0b0a84-da52-42d1-bf99-925387612918
+  m_EditorClassIdentifier: 
+  text: New Node
+  isPlayerNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1001
+    y: 266
+    width: 200
+    height: 100
+--- !u!114 &-2912784524633443419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f3b8e6edca1144e909a09fe0d864b8, type: 3}
+  m_Name: f54b5828-568e-48b9-90a5-e0a124997632
+  m_EditorClassIdentifier: 
+  text: New Node
+  isPlayerNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 44
+    y: 83
+    width: 200
+    height: 100
+--- !u!114 &-1641700519720564748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f3b8e6edca1144e909a09fe0d864b8, type: 3}
+  m_Name: 208096c0-c09e-48de-8cd6-0441cae36a6c
+  m_EditorClassIdentifier: 
+  text: New Node
+  isPlayerNode: 0
+  children:
+  - 00a351b0-e479-475b-a526-10a8368cf32b
+  rect:
+    serializedVersion: 2
+    x: 896
+    y: 54
+    width: 200
+    height: 100
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,62 +119,33 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   dialogueNodes:
-  - uniqueID: 345d7be9-5ed9-4255-94d0-368e2a98b27a
-    text: Title
-    children:
-    - a5c78554-23a3-42aa-848b-87e296124ad1
-    - 998fcf29-c9b5-4da9-a019-f8e2e804a1fa
-    rect:
-      serializedVersion: 2
-      x: 9
-      y: 55
-      width: 200
-      height: 100
-  - uniqueID: a5c78554-23a3-42aa-848b-87e296124ad1
-    text: New Node
-    children:
-    - b8c993e5-1ddd-4ee7-8a9d-0a70c117533b
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 55
-      width: 200
-      height: 100
-  - uniqueID: 998fcf29-c9b5-4da9-a019-f8e2e804a1fa
-    text: New Node
-    children:
-    - bd6bc2f7-f0de-45f7-8662-f6bde87ac4a7
-    - d7ef6841-ae36-4cc1-9019-d6c688ecf3ac
-    rect:
-      serializedVersion: 2
-      x: 261
-      y: 263
-      width: 200
-      height: 100
-  - uniqueID: bd6bc2f7-f0de-45f7-8662-f6bde87ac4a7
-    text: New Node
-    children: []
-    rect:
-      serializedVersion: 2
-      x: 549
-      y: 329
-      width: 200
-      height: 100
-  - uniqueID: b8c993e5-1ddd-4ee7-8a9d-0a70c117533b
-    text: New Node
-    children: []
-    rect:
-      serializedVersion: 2
-      x: 740
-      y: 52
-      width: 200
-      height: 100
-  - uniqueID: d7ef6841-ae36-4cc1-9019-d6c688ecf3ac
-    text: New Node
-    children: []
-    rect:
-      serializedVersion: 2
-      x: 487
-      y: 130
-      width: 200
-      height: 100
+  - {fileID: -2912784524633443419}
+  - {fileID: 566160319063788841}
+  - {fileID: -7363447068713803556}
+  - {fileID: -1641700519720564748}
+  - {fileID: -8508804705469166527}
+  - {fileID: -6547561213015537846}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &566160319063788841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f3b8e6edca1144e909a09fe0d864b8, type: 3}
+  m_Name: 39f3762e-e8d1-4ea8-8bb2-59f1af33dedb
+  m_EditorClassIdentifier: 
+  text: New Node
+  isPlayerNode: 1
+  children:
+  - 208096c0-c09e-48de-8cd6-0441cae36a6c
+  - 6e0b0a84-da52-42d1-bf99-925387612918
+  rect:
+    serializedVersion: 2
+    x: 709
+    y: 231
+    width: 200
+    height: 100
